@@ -4,6 +4,7 @@
  * print_times_table - Prints the times tale of the input,
  * starting with o.
  * @n: The value of the times table to be printed.
+ * description: to print times table of the input.
  */
 void print_times_table(int n)
 {
