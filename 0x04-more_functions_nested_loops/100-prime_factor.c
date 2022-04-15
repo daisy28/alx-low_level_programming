@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prime factors of 6128
+ * main - prime factors of 612852475143
  *
- * Returns: int
+ * Return: int
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 
 	for (i = 3; i <= n; i += 2)
 	{
-	while (n % i == 0)
+		while (n % i == 0)
 		{
 			max = n;
 			n = n / i;
